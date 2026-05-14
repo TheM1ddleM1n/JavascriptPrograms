@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <style>
+    body { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; font-family: monospace; background: #111; color: #fff; }
+    #display { font-size: 5rem; margin: 1rem 0; }
+    input { font-size: 1.2rem; padding: 6px 12px; margin: 4px; }
+    button { font-size: 1rem; padding: 8px 20px; margin: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h2>Countdown Timer</h2>
+  <input id="seconds" type="number" min="1" placeholder="Seconds" value="60">
+  <div id="display">--</div>
+  <div>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+  <script>
+    let interval = null;
+    let remaining = 0;
+
+    function startTimer() {
+      clearInterval(interval);
+      remaining = parseInt(document.getElementById("seconds").value, 10) || 0;
+      if (remaining <= 0) return;
+      tick();
+      interval = setInterval(() => {
+        remaining--;
+        tick();
+        if (remaining <= 0) { clearInterval(interval); document.getElementById("display").textContent = "Done!"; }
+      }, 1000);
+    }
+
+    function tick() {
+      const m = String(Math.floor(remaining / 60)).padStart(2, "0");
+      const s = String(remaining % 60).padStart(2, "0");
+      document.getElementById("display").textContent = `${m}:${s}`;
+    }
+
+    function resetTimer() {
+      clearInterval(interval);
+      document.getElementById("display").textContent = "--";
+    }
+  </script>
+</body>
+</html>

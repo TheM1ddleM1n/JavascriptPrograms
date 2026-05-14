@@ -18,7 +18,7 @@
 
 ---
 
-## 🌟 Why This Repo?
+## Why This Repo?
 
 - **Beginner friendly** — every file is self-contained and easy to read
 - **Wide variety** — algorithms, utilities, games, and browser projects

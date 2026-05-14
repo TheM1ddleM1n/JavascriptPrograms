@@ -1,31 +1,51 @@
----
 name: Bug Report
-about: Something isn't working right
-title: "[BUG] "
-labels: bug
-assignees: ''
----
-
-## 🐛 What's the bug?
-A clear description of what went wrong.
-
-## 📄 Which file?
-e.g. `hangman.js`
-
-## 🔁 Steps to reproduce
-1. Run `node hangman.js`
-2. Type '...'
-3. See error
-
-## ✅ Expected behavior
-What should have happened?
-
-## 💻 Environment
-- OS: (e.g. Windows 11, macOS 14)
-- Node version: (e.g. v20.11.0) — run `node -v` to check
-- Browser (if relevant): (e.g. Chrome 148)
-
-## 📋 Error output
-```
-Paste any error messages here
-```
+description: Something isn't working right
+labels: "bug"
+assignees: "TheM1ddleM1n"
+body:
+  - type: input
+    attributes:
+      label: Which file?
+      description: The name of the file that has the bug.
+      placeholder: hangman.js
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: How do we make the bug happen?
+      placeholder: |
+        1. Run `node hangman.js`
+        2. Type a letter
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder: |
+        The letter should be revealed in the word.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: |
+        The game crashed with a TypeError.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Error Output
+      description: Paste any error messages from your terminal or browser console here.
+  - type: input
+    attributes:
+      label: Environment
+      description: Your OS and Node version (run `node -v`) or browser if relevant.
+      placeholder: Windows 11, Node v20.11.0
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: "Anything else that might help. Pro tip: 'please fix this bug' doesn't help."

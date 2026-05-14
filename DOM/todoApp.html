@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <style>
+    body { font-family: sans-serif; max-width: 400px; margin: 60px auto; }
+    li { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #eee; }
+    li.done span { text-decoration: line-through; color: #aaa; }
+    button { cursor: pointer; }
+    #input-row { display: flex; gap: 8px; margin-bottom: 16px; }
+    input { flex: 1; padding: 6px; }
+  </style>
+</head>
+<body>
+  <h2>Todo</h2>
+  <div id="input-row">
+    <input id="task" type="text" placeholder="New task...">
+    <button onclick="addTask()">Add</button>
+  </div>
+  <ul id="list"></ul>
+  <script>
+    function addTask() {
+      const input = document.getElementById("task");
+      const text = input.value.trim();
+      if (!text) return;
+      const li = document.createElement("li");
+      const span = document.createElement("span");
+      span.textContent = text;
+      span.onclick = () => li.classList.toggle("done");
+      const del = document.createElement("button");
+      del.textContent = "✕";
+      del.onclick = () => li.remove();
+      li.append(span, del);
+      document.getElementById("list").appendChild(li);
+      input.value = "";
+    }
+    document.getElementById("task").addEventListener("keydown", e => {
+      if (e.key === "Enter") addTask();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Picker</title>
+  <style>
+    body { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; font-family: sans-serif; transition: background 0.3s; }
+    #hex { font-size: 2rem; margin-top: 1rem; letter-spacing: 0.1em; }
+  </style>
+</head>
+<body>
+  <input type="color" id="picker" value="#3498db" style="width:100px;height:100px;cursor:pointer;border:none;">
+  <div id="hex">#3498db</div>
+  <script>
+    const picker = document.getElementById("picker");
+    const hex = document.getElementById("hex");
+    picker.addEventListener("input", () => {
+      document.body.style.background = picker.value;
+      hex.textContent = picker.value;
+    });
+  </script>
+</body>
+</html>

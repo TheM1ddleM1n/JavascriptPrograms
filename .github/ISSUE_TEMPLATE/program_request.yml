@@ -14,7 +14,7 @@ body:
   - type: textarea
     attributes:
       label: Any details or links?
-      description: Optional — pseudocode, a reference, or example output to help whoever picks this up.
+      description: Optional — pseudocode, a reference, or example output
       placeholder: |
         caesarCipher("hello", 3) => "khoor"
         caesarCipher("khoor", -3) => "hello"

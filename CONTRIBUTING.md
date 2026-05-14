@@ -57,7 +57,7 @@ Before submitting, make sure:
 
 ## 💡 Need Inspiration?
 
-Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptProgramsV3/issues) — many are tagged `good first issue` and are just waiting for someone to pick them up!
+Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptProgramsV3/issues)
 
 ---
 

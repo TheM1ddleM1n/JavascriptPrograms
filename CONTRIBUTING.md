@@ -1,4 +1,4 @@
-# Contributing to JavascriptProgramsV3
+# Contributing to JavascriptPrograms
 
 First off — thank you! Every contribution helps make this repo a better resource for everyone learning JavaScript. 🎉
 
@@ -57,7 +57,7 @@ Before submitting, make sure:
 
 ## 💡 Need Inspiration?
 
-Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptProgramsV3/issues)
+Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues)
 
 ---
 

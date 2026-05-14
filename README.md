@@ -24,50 +24,6 @@
 - **Wide variety** — algorithms, utilities, games, and browser projects
 - **Community driven** — anyone can add a program!
 - **No dependencies** — just JavaScript and a browser or Node.js
-
----
-
-## 📁 Algorithms & Data Structures
-
-| File | Description |
-|------|-------------|
-| `bubbleSort.js` | Sorts an array using the bubble sort algorithm |
-| `binarySearch.js` | Searches a sorted array using binary search |
-| `linkedList.js` | A singly linked list with append and toArray methods |
-| `stackAndQueue.js` | Stack and Queue implementations using classes |
-| `fibonacciMemo.js` | Fibonacci sequence using memoized recursion |
-
----
-
-## 🔧 Utility / Helper Scripts
-
-| File | Description |
-|------|-------------|
-| `debounce.js` | Debounce wrapper to limit how often a function fires |
-| `deepClone.js` | Deep clones a nested object without reference sharing |
-| `formatDate.js` | Formats dates using the Intl.DateTimeFormat API |
-| `fetchWithRetry.js` | Fetches a URL with automatic retries and backoff |
-
----
-
-## 🎮 Mini Games
-
-| File | Description |
-|------|-------------|
-| `guessingGame.js` | CLI number guessing game with attempt tracking |
-| `rockPaperScissors.js` | Single-round rock paper scissors vs the computer |
-| `hangman.js` | CLI hangman with lives, masked word, and letter guessing |
-
----
-
-## 🌐 DOM / Browser Projects
-
-| File | Description |
-|------|-------------|
-| `colorPicker.html` | Color picker that updates the background and displays the hex code |
-| `todoApp.html` | Todo list with add, complete toggle, and delete |
-| `countdown.html` | Countdown timer with start and reset controls |
-
 ---
 
 ## 🚀 Getting Started
@@ -78,7 +34,7 @@ Make sure you have [Node.js](https://nodejs.org) installed, then:
 node bubbleSort.js
 ```
 
-### Running browser projects
+### Running browser projects (DOM)
 Just open any `.html` file directly in your browser — no server needed.
 
 ---

@@ -8,13 +8,12 @@ First off — thank you! Every contribution helps make this repo a better resour
 
 Any self-contained JavaScript program is welcome! Some ideas:
 
-- **Algorithms** — sorting, searching, graph traversal, dynamic programming
-- **Utilities** — helper functions, string/array tools, date formatters
-- **Mini games** — CLI or browser-based
-- **DOM projects** — interactive HTML/CSS/JS pages
-- **And anything else**
+- Sorting, searching, graph traversal, dynamic programming
+- Helper functions, string/array tools, date formatters
+- CLI or browser-based mini games
+- Interactive HTML/CSS/JS pages
 
-If you're not sure whether your idea fits, open an issue and ask — I don't bite!
+If you're not sure whether your idea fits, open an issue and ask — we don't bite!
 
 ---
 
@@ -35,7 +34,7 @@ If you're not sure whether your idea fits, open an issue and ask — I don't bit
 ```bash
    git checkout -b add-caesar-cipher
 ```
-3. **Add your file** to the root of the repo
+3. **Add your file** to the repo
 4. **Update `README.md`** — add a row to the relevant table
 5. **Commit** with a clear message:
 ```bash

@@ -1,0 +1,20 @@
+name: Program Request
+description: Suggest a new program to add to the collection
+labels: "good first issue, enhancement"
+assignees: "TheM1ddleM1n"
+body:
+  - type: textarea
+    attributes:
+      label: What program would you like to see?
+      description: A short description of the program idea.
+      placeholder: |
+        A Caesar cipher that shifts letters by a given number and can also decode.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Any details or links?
+      description: Optional — pseudocode, a reference, or example output to help whoever picks this up.
+      placeholder: |
+        caesarCipher("hello", 3) => "khoor"
+        caesarCipher("khoor", -3) => "hello"

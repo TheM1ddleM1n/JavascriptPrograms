@@ -61,4 +61,4 @@ Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptProgramsV3/iss
 
 ---
 
-Thanks again for contributing — you're awesome. ⭐
+Thanks again for contributing — you're awesome! ⭐

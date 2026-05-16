@@ -1,4 +1,4 @@
-const readline = require("readline");
+import {createInterface} from "readline";
 
 const categories = {
   programming: [
@@ -36,7 +36,7 @@ const word = words[Math.floor(Math.random() * words.length)];
 const guessed = new Set();
 let lives = 6;
 
-const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+const rl = createInterface({ input: process.stdin, output: process.stdout });
 
 function display() {
   const masked = word.split("").map(l => (guessed.has(l) ? l : "_")).join(" ");

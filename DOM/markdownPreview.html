@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Previewer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: sans-serif; display: flex; height: 100vh; }
+    textarea, #preview {
+      flex: 1;
+      padding: 1rem;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+      overflow-y: auto;
+    }
+    textarea { resize: none; background: #1e1e1e; color: #d4d4d4; border-right: 2px solid #444; }
+    #preview { background: #fff; }
+    h1, h2, h3 { border-bottom: 1px solid #eee; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    pre code { display: block; padding: 1rem; }
+    blockquote { border-left: 4px solid #ccc; margin: 0; padding-left: 1rem; color: #666; }
+  </style>
+</head>
+<body>
+  <textarea id="editor" spellcheck="false"># Hello, Markdown!
+
+Type here and see a **live preview**.
+
+- Item one
+- Item two
+- Item three
+
+> A blockquote
+
+`inline code`
+
+```js
+console.log("hello");
+```
+</textarea>
+  <div id="preview"></div>
+  <script>
+    function parseMarkdown(md) {
+      return md
+        .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+        .replace(/```[\w]*\n([\s\S]*?)```/g, (_, c) => `<pre><code>${c.trim()}</code></pre>`)
+        .replace(/`([^`]+)`/g, "<code>$1</code>")
+        .replace(/^#{3} (.+)$/gm, "<h3>$1</h3>")
+        .replace(/^#{2} (.+)$/gm, "<h2>$1</h2>")
+        .replace(/^# (.+)$/gm, "<h1>$1</h1>")
+        .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+        .replace(/\*(.+?)\*/g, "<em>$1</em>")
+        .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>")
+        .replace(/^[-*] (.+)$/gm, "<li>$1</li>")
+        .replace(/(<li>.*<\/li>)/s, "<ul>$1</ul>")
+        .replace(/\n{2,}/g, "<br><br>");
+    }
+
+    const editor = document.getElementById("editor");
+    const preview = document.getElementById("preview");
+
+    function update() { preview.innerHTML = parseMarkdown(editor.value); }
+    editor.addEventListener("input", update);
+    update();
+  </script>
+</body>
+</html>

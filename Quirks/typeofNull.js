@@ -17,7 +17,7 @@ console.log(typeof null === "object" && null === null);
 
 const value = null;
 if (typeof value === "object" && value !== null) {
-  console.log("it's actually an object");
+  console.log("It's actually an object!");
 } else {
-  console.log("it's null, not an object");
+  console.log("It's null, not an object!");
 }

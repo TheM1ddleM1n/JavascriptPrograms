@@ -44,7 +44,7 @@ body:
     attributes:
       label: Environment
       description: Your OS and Node version (run `node -v`) or browser if relevant.
-      placeholder: ie. Windows 11, Node v20.11.0
+      placeholder: ie. Windows 11, Node v26.1.0
   - type: textarea
     attributes:
       label: Additional Information

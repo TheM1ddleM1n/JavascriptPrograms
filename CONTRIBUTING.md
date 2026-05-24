@@ -1,10 +1,10 @@
 # Contributing to JavascriptPrograms
 
-First off — thank you! Every contribution helps make this repo a better resource for everyone learning JavaScript. 🎉
+First off a thank you! Every contribution helps make this repo a better resource for everyone learning JavaScript.
 
 ---
 
-## 🧠 What Can I Add?
+## What Could I add to TheM1ddleM1n's JavascriptPrograms?
 
 Any self-contained JavaScript program is welcome! Some ideas:
 
@@ -13,21 +13,20 @@ Any self-contained JavaScript program is welcome! Some ideas:
 - CLI or browser-based mini games
 - Interactive HTML/CSS/JS pages
 
-If you're not sure whether your idea fits, open an issue and ask — we don't bite!
+If you're not sure whether your idea fits, open an issue and ask I won't judge (promise)
 
 ---
 
-## 📋 Guidelines
+## Guidelines
 
 - **One program per file** — keep things focused and easy to read
 - **No external dependencies** — plain JavaScript only (Node built-ins are fine for CLI scripts)
 - **Readable code** — use clear variable names; code should speak for itself
 - **Self-contained** — the file should run on its own with `node yourFile.js` or by opening it in a browser
-- **Add your file to the table in `README.md`** — a one-line description is all that's needed
 
 ---
 
-## 🛠️ How to Contribute
+## How to Contribute
 
 1. **Fork** the repo
 2. **Create a branch** for your program:
@@ -44,21 +43,21 @@ If you're not sure whether your idea fits, open an issue and ask — we don't bi
 
 ---
 
-## ✅ Pull Request Checklist
+## Pull Request Checklist
 
 Before submitting, make sure:
 
 - [ ] The file runs without errors
 - [ ] No external `npm` packages are used
 - [ ] The README table has been updated
-- [ ] The file name is camelCase (e.g. `caesarCipher.js`)
+- [ ] The file name is camelCase (e.g. `caesarCipher.js`) or a single Word (e.g. `Hangman.js`)
 
 ---
 
-## 💡 Need Inspiration?
+## Do you need Inspiration?
 
 Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues)
 
 ---
 
-Thanks again for contributing — you're awesome! ⭐
+Thanks for contributing — you're awesome! ⭐

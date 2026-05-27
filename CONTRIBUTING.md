@@ -39,7 +39,7 @@ If you're not sure whether your idea fits, open an issue and ask I won't judge (
 ```bash
    git commit -m "Add caesar cipher utility"
 ```
-6. **Open a Pull Request** — describe what your program does in a sentence or two
+6. **Open a Pull Request** — describe what your program does in at least 2 sentences
 
 ---
 

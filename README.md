@@ -44,7 +44,7 @@ Just open any `.html` file directly in your browser — no server needed.
 Want to add your own program? We'd love to have it!
 Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Not sure what to add? Browse the [open issues](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues) for ideas — many are tagged `good first issue`!
+Not sure what to add? Browse the [open issues](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues) for ideas
 
 ---
 

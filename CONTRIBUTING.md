@@ -1,6 +1,6 @@
 # Contributing to JavascriptPrograms
 
-First off a thank you! Every contribution helps make this repo a better resource for everyone learning JavaScript.
+First off a thank you! Every contribution helps make this repo a better resource for everyone learning how to code JavaScript.
 
 ---
 

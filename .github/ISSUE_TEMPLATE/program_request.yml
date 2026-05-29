@@ -1,5 +1,5 @@
 name: Program Request
-description: Suggest a new program to add to the collection
+description: Suggest a new program to add to my collection of programs
 labels: "good first issue, enhancement"
 assignees: "TheM1ddleM1n"
 body:
@@ -14,7 +14,7 @@ body:
   - type: textarea
     attributes:
       label: Any details or links?
-      description: Completely optional here - pseudocode, a reference, or an example output
+      description: Completely optional here - pseudocode, a reference or an example output
       placeholder: |
         caesarCipher("hello", 3) => "khoor"
         caesarCipher("khoor", -3) => "hello"

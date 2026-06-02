@@ -19,27 +19,26 @@ If you're not sure whether your idea fits, open an issue and ask I won't judge (
 
 ## Guidelines
 
-- **One program per file** — keep things focused and easy to read
-- **No external dependencies** — plain JavaScript only (Node built-ins are fine for CLI scripts)
-- **Readable code** — use clear variable names; code should speak for itself
-- **Self-contained** — the file should run on its own with `node yourFile.js` or by opening it in a browser
+- **One program per file** — please keep things focused and easy to read
+- **No external dependencies** — in plain JavaScript only (Node built-ins are fine for CLI scripts)
+- **Readable code** — use clear variable names
+- **Self-contained** — the file should run on its own with `node yourFile.js` or by opening it in a browser (via console log)
 
 ---
 
-## How to Contribute
+## How do I contribute?
 
 1. **Fork** the repo
 2. **Create a branch** for your program:
 ```bash
-   git checkout -b add-caesar-cipher
+git checkout -b add-caesar-cipher
 ```
 3. **Add your file** to the repo
-4. **Update `README.md`** — add a row to the relevant table
-5. **Commit** with a clear message:
+4. **Commit** with a clear message:
 ```bash
-   git commit -m "Add caesar cipher utility"
+git commit -m "Add caesar cipher utility"
 ```
-6. **Open a Pull Request** — describe what your program does in at least 2 sentences
+5. **Open a Pull Request** — describe what your program does as short as possible please
 
 ---
 
@@ -50,14 +49,12 @@ Before submitting, make sure:
 - [ ] The file runs without errors
 - [ ] No external `npm` packages are used
 - [ ] The README table has been updated
-- [ ] The file name is camelCase (e.g. `caesarCipher.js`) or a single Word (e.g. `Hangman.js`)
+- [ ] The file name is camelCase (e.g. `caesarCipher.js`) or in lowercase or UPPERCASE (e.g. `Hangman.js`)
 
 ---
 
-## Do you need Inspiration?
-
-Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues)
+Check the [open issues](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues) if you need inspiration.
 
 ---
 
-Thanks for contributing — you're awesome! ⭐
+⭐ Thanks for contributing — you're awesome! ⭐

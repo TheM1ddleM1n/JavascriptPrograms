@@ -22,7 +22,7 @@ If you're not sure whether your idea fits, open an issue and ask I won't judge (
 - **One program per file** — please keep things focused and easy to read
 - **No external dependencies** — in plain JavaScript only (Node built-ins are fine for CLI scripts)
 - **Readable code** — use clear variable names
-- **Self-contained** — the file should run on its own with `node yourFile.js` or by opening it in a browser (via console log)
+- **Self-contained** — the file should run on its own with `node yourFile.js` or by opening it in a browser (via F12 - Console)
 
 ---
 

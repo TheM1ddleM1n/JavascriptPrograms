@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 [![Contributors](https://img.shields.io/github/contributors/TheM1ddleM1n/JavascriptProgramsV3?style=for-the-badge&color=purple)](https://github.com/TheM1ddleM1n/JavascriptPrograms/graphs/contributors)
 
-*Inspired by PythonProgramsV3 — let's make this one just as popular!*
+*Inspired by PythonPrograms — let's make this one just as popular!*
 
 [Browse Programs](#-algorithms--data-structures) · [Contribute](CONTRIBUTING.md) · [Report a Bug](https://github.com/TheM1ddleM1n/JavascriptPrograms/issues)
 
@@ -23,7 +23,7 @@
 - **Beginner friendly** — every file is self-contained and easy to read
 - **Wide variety** — algorithms, utilities, games, and browser projects
 - **Community driven** — anyone can add a program!
-- **No dependencies** — just JavaScript and a browser or Node.js
+- **No dependencies** — just JavaScript, Browser or Node
 ---
 
 ## Getting Started

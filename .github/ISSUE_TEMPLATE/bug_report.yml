@@ -15,7 +15,7 @@ body:
       label: Steps to Reproduce
       description: How do we make the bug happen?
       placeholder: |
-        1. Run `node hangman.js`
+        1. Run `node Hangman.js`
         2. Type a letter
         3. Saw a error appear
     validations:

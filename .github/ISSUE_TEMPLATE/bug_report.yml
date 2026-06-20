@@ -7,7 +7,7 @@ body:
     attributes:
       label: Which file?
       description: The name of the file that has the bug.
-      placeholder: hangman.js
+      placeholder: Hangman.js
     validations:
       required: true
   - type: textarea

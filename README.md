@@ -2,7 +2,7 @@
 
 # JavascriptPrograms
 
-**A growing collection of JavaScript programs — algorithms, utilities, mini games, and browser projects.**
+**A collection of JavaScript programs — algorithms, utilities, mini games, and browser projects.**
 
 [![Stars](https://img.shields.io/github/stars/TheM1ddleM1n/JavascriptPrograms?style=for-the-badge&color=yellow)](https://github.com/TheM1ddleM1n/JavascriptPrograms/stargazers)
 [![Forks](https://img.shields.io/github/forks/TheM1ddleM1n/JavascriptPrograms?style=for-the-badge&color=blue)](https://github.com/TheM1ddleM1n/JavascriptPrograms/network/members)
@@ -51,7 +51,7 @@ node Algorithms/bubbleSort.js
 
 ### Running a browser project
 
-Open the relevant `.html` file directly in a browser. No server is required.
+Open the relevant `.html` file directly in a browser. No server required.
 
 ## Contributing
 

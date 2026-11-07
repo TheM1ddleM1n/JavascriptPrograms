@@ -13,4 +13,4 @@ body:
   - type: textarea
     attributes:
       label: Anything else?
-      description: Optional notes, questions, or a draft of your idea.
+      description: This could be optional notes, questions or a draft piece of code.
